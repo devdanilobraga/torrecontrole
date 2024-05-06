@@ -1,0 +1,119 @@
+.login-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .login-container h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+
+  .login-container {
+    display: grid;
+    grid-template-columns: 1fr auto; /* Uma coluna para o formulário e outra para o banner */
+    gap: 20px; /* Espaço entre as colunas */
+    width: 90%; /* Ajuste conforme necessário */
+    max-width: 800px; /* Ajuste conforme necessário */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .banner {
+    grid-column: 2; /* Coloca o banner na segunda coluna */
+    align-self: center; /* Alinha verticalmente ao centro */
+  }
+  
+  @media screen and (max-width: 600px) {
+    /* Ajustes para telas menores */
+    .login-container {
+      grid-template-columns: 1fr; /* Uma coluna única */
+    }
+  
+    .banner {
+      grid-column: 1; /* Coloca o banner na primeira (única) coluna */
+      grid-row: 3; /* Coloca o banner na terceira linha */
+      align-self: start; /* Alinha ao topo */
+    }
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form {
+    width: 300px;
+    margin-right: 20px;
+  }
+  
+  .banner img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .login-container {
+      flex-direction: column;
+    }
+  
+    .login-form,
+    .banner {
+      margin: 0;
+      width: 100%;
+    }
+  }
+  
+  

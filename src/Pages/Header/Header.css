@@ -1,0 +1,94 @@
+/* Header.css */
+
+header {
+    background-color: #0B4619; /* Cor de fundo do header */
+    padding: 10px 0;
+    font-weight: bold;
+
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Largura máxima do conteúdo do header */
+    margin: 0 auto; /* Centralizar o conteúdo horizontalmente */
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    width: 100px; /* Reduzindo o tamanho do logo */
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff; /* Cor do texto dos links */
+    text-decoration: none; /* Remover sublinhado dos links */
+    transition: color 0.3s ease; /* Transição suave de cor */
+  }
+  
+  nav ul li a:hover {
+    color: #89BF0F; /* Mudar a cor ao passar o mouse */
+  }
+  
+  /* Header.css */
+
+.user-info {
+  display: flex;
+  align-items: center;
+  color: #fff; /* Cor do texto */
+  font-weight: bold; /* Negrito */
+  margin-left: 20px; /* Espaçamento à esquerda */
+}
+
+.user-info button {
+  background-color: #89BF0F; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none; /* Remover borda do botão */
+  padding: 8px 16px; /* Espaçamento interno do botão */
+  border-radius: 4px; /* Borda arredondada do botão */
+  margin-left: 10px; /* Espaçamento à esquerda do botão */
+  cursor: pointer; /* Cursor do mouse ao passar sobre o botão */
+}
+
+.link-button {
+  color: black; /* cor padrão do texto */
+  text-decoration: none; /* remove sublinhado */
+  transition: color 0.3s; /* adiciona transição suave para a mudança de cor */
+  font-weight: bold;
+}
+
+.link-button:hover {
+  color: white; /* cor do texto quando o mouse passa por cima */
+}
+
+.user-info button:hover {
+  background-color: #024a08; /* Mudar a cor de fundo ao passar o mouse */
+}
+
+  @media screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .logo {
+      margin-bottom: 20px;
+    }
+  
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  

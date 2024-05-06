@@ -1,0 +1,202 @@
+.form-field select,
+.form-field input, .uf {
+  width: calc(100% - 16px); 
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-field select, .uf {
+  height: 40px;
+}
+
+.search {
+ border-color: #0B4619;
+  padding: 8px;
+  border: 1px solid #036b08;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.content button {
+  padding: 5px;
+  margin-right: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.content button:hover {
+  background-color: #f0f0f0;
+}
+
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.content th, .content td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.content th {
+  background-color: #0B4619;
+  text-align: left;
+  color: #fff;
+}
+
+.content th button{
+  color: #fff;
+} 
+
+.content th button:hover{
+  color: #000000;
+  background-color: #0B4619;
+} 
+
+#cadastro {
+  background-color: #0B4619;
+  position: relative;
+}
+
+#cadastro button{
+  background-color: #89BF0F;
+  font-weight: bold;
+}
+
+#cadastro h2{
+  color: #ffffff;
+}
+
+#cadastro button:hover{
+  background-color: #0B4619;
+}
+
+
+.modal{ 
+  input{
+    font-size: 16px;
+  }
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #555;
+  }
+
+  button {
+    text-align: center;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #89BF0F;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #0B4619;
+  }
+}
+
+@media screen and (min-width: 800px) {
+#empresa{
+  width: 20%;
+  height: 20px;
+  position: absolute;
+}
+
+#contato{
+  width: 15%;
+  height: 20px;
+  margin-left: 22%;
+}
+
+#cnpj{
+  width: 10%;
+  margin-left: 39%;
+  margin-top: -48px;
+  height: 20px;
+  position: absolute;
+}
+
+#ativo{
+  width: 7%;
+  margin-left: 51%;
+  margin-top: -48px;
+  height: 37px;
+  position: absolute;
+
+}
+
+#controlador{
+  width: 14%;
+  margin-left: 59%;
+  margin-top: -50px;
+  height: 38px;
+  position: absolute;
+}
+
+#uf{
+  width: 10%;
+  margin-left: 74%;
+  margin-top: -50px;
+  height: 38px;
+  position: absolute;
+}
+
+#botao{
+  width: 100px;
+  margin-left: 85%;
+  position: absolute;
+  margin-top: -50px;
+}
+
+}
+
+/* Estilos para o modal */
+.modal {
+  position: fixed; /* Permite que o modal fique sobreposto à tela */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destacar o modal */
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+/* Estilos para o conteúdo do modal */
+.modal-content {
+  background-color: #fff; /* Cor de fundo do modal */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para o efeito visual */
+  position: relative;
+}
+
+/* Estilos para o botão de fechar */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #aaa;
+}
+
+.close:hover {
+  color: #000;
+}

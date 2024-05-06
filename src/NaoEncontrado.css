@@ -1,0 +1,21 @@
+/* NotFound.css */
+
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Altura total da tela */
+    background-color: #f8f9fa; /* Cor de fundo da página de erro */
+  }
+  
+  h1 {
+    font-size: 100px; /* Tamanho grande para o número de erro */
+    color: #dc3545; /* Cor vermelha para o número de erro */
+  }
+  
+  p {
+    font-size: 24px; /* Tamanho do texto */
+    color: #333; /* Cor do texto */
+  }
+  

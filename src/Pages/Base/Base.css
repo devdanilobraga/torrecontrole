@@ -1,0 +1,147 @@
+.form-field select,
+.form-field input, .uf {
+  width: calc(100% - 16px); 
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-field select, .uf {
+  height: 40px;
+}
+
+.search {
+ border-color: #0B4619;
+  padding: 8px;
+  border: 1px solid #036b08;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.content button {
+  padding: 5px;
+  margin-right: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.content button:hover {
+  background-color: #f0f0f0;
+}
+
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.content th, .content td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.content th {
+  background-color: #0B4619;
+  text-align: left;
+  color: #fff;
+}
+
+.content th button{
+  color: #fff;
+} 
+
+.content th button:hover{
+  color: #000000;
+  background-color: #0B4619;
+} 
+
+#cadastro {
+  background-color: #0B4619;
+  position: relative;
+}
+
+#cadastro button{
+  background-color: #89BF0F;
+  font-weight: bold;
+}
+
+#cadastro h2{
+  color: #ffffff;
+}
+
+#cadastro button:hover{
+  background-color: #0B4619;
+}
+
+
+.modal{ 
+  input{
+    font-size: 16px;
+  }
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #555;
+  }
+
+  button {
+    text-align: center;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #89BF0F;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  button:hover {
+    background-color: #0B4619;
+  }
+}
+
+@media screen and (min-width: 800px) {
+#nome{
+  width: 20%;
+  height: 20px;
+  position: absolute;
+}
+
+#cliente{
+  width: 20%;
+  margin-left: 22%;
+}
+
+#controlador{
+  width: 20%;
+  margin-left: 43%;
+  margin-top: -50px;
+  position: absolute;
+}
+
+#uf{
+  width: 10%;
+  margin-left: 64%;
+  margin-top: -50px;
+  position: absolute;
+}
+
+#botao{
+  width: 100px;
+  margin-left: 77%;
+  position: absolute;
+  margin-top: -50px;
+}
+
+}
+

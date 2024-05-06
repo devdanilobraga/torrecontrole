@@ -1,0 +1,98 @@
+.fale-conosco-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: -400px;
+  }
+  
+  .fale-conosco-container h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #0B4619;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #89BF0F;
+  }
+  
+  .redes-sociais {
+    text-align: center;
+  }
+  
+  .redes-sociais h3 {
+    margin-bottom: 10px;
+  }
+  
+  .redes-sociais ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .redes-sociais ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .redes-sociais ul li a {
+    color: #333;
+    font-size: 20px;
+  }
+  
+  .redes-sociais ul li a:hover {
+    color: #0B4619;
+  }
+  
+  .banner {
+    flex: 1; /* O banner ocupa todo o espaço disponível */
+    margin-left: 20px; /* Adiciona espaço entre o banner e o formulário */
+  }
+  
+  .banner img {
+    width: 400px;
+    max-width: 100%; /* O banner ocupará 100% da largura do contêiner */
+    height: auto; /* Altura automática para manter a proporção */
+    border-radius: 10px;
+    
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .banner {
+      margin-left: 0; /* Remove a margem esquerda do banner em telas menores */
+      margin-bottom: 20px; /* Adiciona espaço entre o banner e o formulário */
+    }
+    h2{
+        color: #0ee962;
+    }
+  }
+  
