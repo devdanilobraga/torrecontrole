@@ -154,10 +154,9 @@ function Controle() {
             </div>
           )}
 
-
         <div className="content">
         
-          <h2>controles Cadastrados</h2>
+          <h2>Cadastrados</h2>
           <input
             className='search'
             type="text"
