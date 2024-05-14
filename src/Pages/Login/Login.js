@@ -9,6 +9,12 @@ function Login() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
+  const [showPassword, setShowPassword] = useState(false);
+
+  const togglePasswordVisibility = () => {
+    setShowPassword(!showPassword);
+  };
+
   return (
     <div className="login-container">
       <div className="login-form">
@@ -20,6 +26,7 @@ function Login() {
               type="text"
               id="username"
               value={username}
+              placeholder="Digite seu Login"
               onChange={(e) => setUsername(e.target.value)}
               required
             />
@@ -27,12 +34,20 @@ function Login() {
           <div className="form-group">
             <label htmlFor="password">Senha:</label>
             <input
-              type="password"
+             type={showPassword ? 'text' : 'password'}
               id="password"
+              placeholder="Digite sua Senha"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               required
             />
+            <button
+        className="password-toggle"
+        onClick={togglePasswordVisibility}
+        tabIndex="-1" 
+      >
+        {showPassword ? '👁️‍🗨️' : '👁️‍🗨️'}
+      </button>
           </div>
           <button type="submit">Entrar</button>
         </form>

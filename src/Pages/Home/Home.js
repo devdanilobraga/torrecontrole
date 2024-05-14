@@ -1,13 +1,14 @@
 import React from 'react';
+import './Home.css';
 import Header from '../Header/Header';
 
+
 function Home() {
-  // Lógica do dashboard aqui...
+ 
   return (
     <div>
-        <Header/>
-      <h2>dashboard</h2>
-      {/* Conteúdo do dashboard */}
+      <Header />
+      <p>Dashboard</p>
     </div>
   );
 }

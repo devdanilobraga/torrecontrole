@@ -1,7 +1,14 @@
-import React from "react";
+import { ComponentProps } from "react";
 
-function Input(){
-return(
+interface InputProps extends ComponentProps<'input'> {
+    name: string;
+}
+
+
+export function Input({placeholder, name, id, ...props}: InputProps) {
+    const inputId = id ?? name;
+
+    return(
         <div className="relative">
             <input 
             {...props}
@@ -22,5 +29,3 @@ return(
         </div>    
     );
 }
-    
-export default Input;

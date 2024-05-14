@@ -2,7 +2,7 @@
 
 import React from 'react';
 import './NaoEncontrado.css';
-import Header from './Pages/Header/Header';
+import Header from '../Header/Header';
 
 function NaoEncontrado() {
   return (

@@ -1,5 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
+import { AuthProvider, useAuth } from './Conexao/Router/AuthContext';
+import PrivateRoute from './Conexao/Router/PrivateRoute';
 
 import Footer from './Pages/Footer/Footer';
 import Base from './Pages/Base/Base';
@@ -11,7 +13,7 @@ import Historico from './Pages/Historico/Historico';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
 import './logo.svg';
-import NaoEncontrado from './NaoEncontrado';
+import NaoEncontrado from './Pages/Erro404/NaoEncontrado';
 import FaleConosco from './Pages/FaleConosco/FaleConosco';
 
 import '@fortawesome/fontawesome-free/css/all.min.css';
@@ -19,6 +21,7 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App() {
   return (
+  <AuthProvider>
     <Router>
       <div>
         <Routes> 
@@ -36,6 +39,7 @@ function App() {
         <Footer />
       </div>
     </Router>
+  </AuthProvider>
   );
 
   

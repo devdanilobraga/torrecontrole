@@ -1,5 +1,5 @@
 {
-  "name": "torre",
+  "name": "D0_Logistcs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,12 +14,34 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0",
+    "@types/react-leaflet": "^3.0.0",
+    "axios": "^1.6.8",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "formik": "^2.4.6",
+    "leaflet": "^1.9.4",
+    "mapa-brasil": "^1.0.6",
+    "mongoose": "^8.3.4",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "proj4": "^2.11.0",
+    "proj4leaflet": "^1.0.2",
+    "prop-types": "^15.8.1",
+    "react": "^18.3.1",
+    "react-brazil-map": "^1.0.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.23.0",
     "react-scripts": "5.0.1",
+    "react-simple-maps": "^3.0.0",
     "react-toastify": "^10.0.5",
-    "web-vitals": "^2.1.4"
+    "shpjs": "^5.0.0",
+    "sweetalert2": "^11.10.8",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5",
+    "yup": "^1.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,5 +66,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
   }
 }

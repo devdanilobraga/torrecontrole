@@ -111,37 +111,91 @@
 }
 
 @media screen and (min-width: 800px) {
-#nome{
-  width: 20%;
+#base{
+  width: 17%;
   height: 20px;
   position: absolute;
 }
 
 #cliente{
-  width: 20%;
-  margin-left: 22%;
+  width: 8%;
+  height: 37px;
+  margin-left: 19%;
 }
 
-#controlador{
-  width: 20%;
-  margin-left: 43%;
-  margin-top: -50px;
+#controle{
+  width: 10%;
+  margin-left: 40%;
+  margin-top: -48px;
+  height: 37px;
   position: absolute;
 }
 
+
+#lider{
+  width: 10%;
+  margin-left: 28%;
+  margin-top: -48px;
+  height: 20px;
+  position: absolute;
+}  
+
+#ativo{
+  width: 7%;
+  margin-left: 52%;
+  margin-top: -48px;
+  height: 37px;
+  position: absolute;
+}  
 #uf{
   width: 10%;
-  margin-left: 64%;
+  margin-left: 35%;
   margin-top: -50px;
+  height: 38px;
   position: absolute;
 }
 
 #botao{
   width: 100px;
-  margin-left: 77%;
+  margin-left: 71%;
   position: absolute;
   margin-top: -50px;
 }
 
 }
 
+/* Estilos para o modal */
+.modal {
+  position: fixed; /* Permite que o modal fique sobreposto à tela */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destacar o modal */
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+/* Estilos para o conteúdo do modal */
+.modal-content {
+  background-color: #fff; /* Cor de fundo do modal */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para o efeito visual */
+  position: relative;
+}
+
+/* Estilos para o botão de fechar */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #aaa;
+}
+
+.close:hover {
+  color: #000;
+}

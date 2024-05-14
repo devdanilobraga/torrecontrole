@@ -6,7 +6,15 @@
     border-radius: 5px;
     background-color: #f9f9f9;
   }
+
+  input{
+    border-radius: 20px;
+  }
   
+  button{
+    border-radius: 20px;
+  }
+
   .login-container h2 {
     text-align: center;
   }
@@ -31,12 +39,13 @@
   button[type="submit"] {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #012503;
     color: #fff;
     border: none;
     border-radius: 3px;
     cursor: pointer;
     transition: background-color 0.3s;
+    
   }
   
   button[type="submit"]:hover {
@@ -108,7 +117,7 @@
     .login-container {
       flex-direction: column;
     }
-  
+
     .login-form,
     .banner {
       margin: 0;
